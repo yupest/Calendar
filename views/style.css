@@ -1,0 +1,37 @@
+<style type="text/css">
+	@font-face {
+	font-family: Lato; 
+    src: url('views/LatoRagular.ttf');
+   }
+	.list td{text-align:center; vertical-align: middle; width:8%;}
+  .errors {color: red; }
+	.right td{vertical-align: top; }
+	.right {text-align: right; width:10%;}
+  input[type="text"], input[type="password"], select {font: 16pt;color: #333; }
+	table {width: 95%;}
+	.admin table {text-align: center;border-collapse:collapse; width:98%}
+  .admin td {font: 12pt; color: #333; border: 3px solid #dedfea; padding: 3px; background-color: #EEE;}
+	.form table,tr {border-collapse:collapse; border: 3px solid #dedfea; width: 100%; }
+  .form td {font: 16pt; color: #333;  padding: 3px; background-color: #EEE; padding: 1%; vertical-align: middle;}
+  body{font: 14pt Lato; margin: 3%; position: absolute;}
+	h1 {font-size: 36pt; }
+	textarea, button, .list [type="submit"]{font: 12pt lato; color: #333;}
+	.newTask {width: 80%; height: 40%; border-collapse:collapse; padding: 1% 5%; position:absolute;}
+	.cal img {width: 50px; vertical-align: middle;}
+.calendar-wrapper table {background-color: #FFFFFF; color: #272829; border-collapse: collapse;}
+.calendar-wrapper table tr.day td {font-size: 10.0px; font-weight: bold; background: #E9E9E9;}
+.calendar-wrapper table tr#first-child td {width: 0; font-size: 11px; font-weight: bold;}
+.calendar-wrapper table .lalign {text-align: left;}
+.calendar-wrapper table .ralign {text-align: right;}
+.calendar-wrapper table td {width: 25px; height: 20px; text-align: center; font-size: 15px; cursor: pointer;}
+/* button control */
+.calendar-wrapper table button {border: 1px solid #E9E5E5; background: #FFFFFF; color: #272829; padding: 0px 1px; height: 20px; cursor: pointer;}
+.calendar-wrapper table tr.day td, .calendar-wrapper table tr.control td, .calendar-wrapper table button {border: none;}
+.calendar-wrapper {position: absolute; z-index: 1; left: 8px; top: 200px; display: none; border: 1px solid #D8D8D8; -webkit-box-shadow: 0 0 10px #888; -moz-box-shadow: 0 0 10px  #888; box-shadow: 0 0 10px  #888;}
+
+/* colors day */
+.calendar-wrapper .Sunday {background: #FFDDDD;}
+.calendar-wrapper .DefaultDay {background: #FFFFFF;}
+.calendar-wrapper .CurrDay {background: #D90000;}
+.calendar-wrapper .Select {background: #0f71c8; color: #FFFFFF;}
+ </style>
